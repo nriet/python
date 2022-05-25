@@ -3,7 +3,8 @@ from sys import argv
 import time
 import os,sys,getopt
 import numpy as np
-
+import datetime
+from netCDF4 import Dataset
 
 num1 = argv[1]
 num2 = argv[2]
